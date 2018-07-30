@@ -1,0 +1,1203 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"sty",
+				"style-default"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"padd",
+				"padding-right\tproperty"
+			],
+			[
+				"text-",
+				"text-center"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			],
+			[
+				"widget",
+				"widget-head"
+			],
+			[
+				"chart",
+				"chart-container"
+			],
+			[
+				"padding",
+				"padding-left\tproperty"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"wd",
+				"width\tproperty"
+			],
+			[
+				"ib",
+				"ibox-content"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"tabl",
+				"table\tdisplay"
+			],
+			[
+				"word",
+				"word-break\tproperty"
+			],
+			[
+				"pull-",
+				"pull-left"
+			],
+			[
+				"col",
+				"Col"
+			],
+			[
+				"clas",
+				"className"
+			],
+			[
+				"class",
+				"class"
+			],
+			[
+				"Panel",
+				"PanelBody"
+			],
+			[
+				"Clas",
+				"className"
+			],
+			[
+				"panel",
+				"PanelBody"
+			],
+			[
+				"backgr",
+				"background-color\tproperty"
+			],
+			[
+				"paddi",
+				"padding-bottom\tproperty"
+			],
+			[
+				"table",
+				"table-caption\tdisplay"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"pad",
+				"padding-left\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"bck",
+				"background-color\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"expand-",
+				"expand-container"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sidemenu.html",
+			"settings":
+			{
+				"buffer_size": 13174,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/asimily.css",
+			"settings":
+			{
+				"buffer_size": 35969,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/untitled.css",
+			"settings":
+			{
+				"buffer_size": 1240,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/asimily",
+		"/Applications/MAMP/htdocs/asimily/css"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/asimily/dashboard.html",
+		"/Applications/MAMP/htdocs/asimily/one.js",
+		"/Applications/MAMP/htdocs/asimily/css/style.css",
+		"/Applications/MAMP/htdocs/asimily/js/d3.js",
+		"/Applications/MAMP/htdocs/asimily/four.js",
+		"/Applications/MAMP/htdocs/asimily/three.js",
+		"/Applications/MAMP/htdocs/asimily/two.js",
+		"/Applications/MAMP/htdocs/asimily/fonts/raleway/medium/raleway-medium.woff",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/dashboard/c_resource_detail.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/dashboard/v_resource_detail.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/graph/v_data_zone_graph.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/view_helpers.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/alerts/v_alerts.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/dev-server.js",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/mocks/Template_Mocks/css/privacera_styles.css",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/configuration/application/v_application_configuration.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/configuration/c_configuration.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/configuration/application/c_application_configuration.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/data/applications_config_properties/index.js",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/mocks/Template_Mocks/rescan.html",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/webpack.config.js",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/mocks/Template_Mocks/datazone_details.html",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/mocks/Initial_Mocks/discovery.html",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/datazone/v_datazone_detail.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/data_lineage/c_data_zone_graph.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/discovery/v_classification_listing.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/mocks/Template_Mocks/blank_index.html",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/node_modules/bootstrap-daterangepicker/daterangepicker.js",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/user_management/v_user_management.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/common_components/table.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/metrics/v_metrics.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/maintenance/v_diagnostics.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/site/v_header.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/styles/css/style.css",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/base_container.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/crypto/scheme/v_scheme.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/common_components/action_buttons.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/alerts/v_alerts_table.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/site/v_widget_box.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/node_modules/react-bootstrap/lib/Breadcrumb.js",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/node_modules/node-fetch/lib/headers.js",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/routers/routes.jsx",
+		"/Applications/MAMP/htdocs/Asimily123/asimily/index.html",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/mocks/Template_Mocks/diagnostic_alternate.html",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/consent/machine_learning/v_machine_learning.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/consent/c_policies.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/maintenance/c_diagnostic_main.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/metrics/c_metrics_graph.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/metrics/v_metrics_graph.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/metrics/c_metrics.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/maintenance/c_diagnostics.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/data_inventory/v_data_inventory.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/consent/consent_management/v_consent_policy.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/datazone/v_datazone_dashboard.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/configuration/datazone/v_datazone.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/data_lineage/v_data_flow_detail.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/data_lineage/c_data_flow_detail.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/graph/v_sankey_diagram.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/user_management/v_priviledge_users.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/user_management/v_proxy_users.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/configuration/application/v_application_score_threshold.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/dictionary/v_data_access.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/dictionary/v_application_configuration.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/discovery/v_discovery.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/audits/v_audits.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/audits/v_audits_table.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/compliance_reports/v_compliance_reports.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/user_management/c_user_management_main.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/dashboard/c_dashboard_main.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/datazone/c_datazone_detail.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/dictionary/c_dictionary.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/configuration/dictionary/c_dictionary.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/discovery/c_data_classification.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/discovery/c_data_detail.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/compliance_reports/c_reports.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/oozie_workflow/v_oozie_workflow.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/logs/v_logs.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/dictionary/v_system_application.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/discovery/v_pending_review.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/dashboard/v_data_summary.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/configuration/dictionary/v_dictionary.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/configuration/lineage/v_lineage_config.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/configuration/patterns/v_patterns.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/consent/v_consent_user.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/configuration/tags_info/v_tags_info.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/alerts/v_heat_map.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/common_components/filters.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/common_components/widgets.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/alerts/v_search_component.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/node_modules/bootstrap-daterangepicker/daterangepicker.css",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/configuration/lineage/c_lineage_config.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/configuration/datazone/c_datazone.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/discovery/c_files_view.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/dictionary/v_classification.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/data_inventory/v_data_inventory_detail.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/discovery/c_classification_listing.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/dictionary/v_application_form.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/components/utils/generic_components.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/dictionary/c_application_configuration.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/discovery/c_discovery.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/mocks/Template_Mocks/report_listing.html",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/utils/globals.js",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/data_lineage/c_data_lineage.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/mocks/Template_Mocks/metrics_menu.html",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/app/scripts/containers/alerts/c_alerts.jsx",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/mocks/Template_Mocks/application_config.html",
+		"/Users/rahulkale/Work/Projects/Freestone/privacera/privacera-portal/src/main/webapp/mocks/Template_Mocks/taginfo.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".alt2 .am-left-sidebar .sidebar-elements>li.active>a",
+			".alt4 .am-left-sidebar .sidebar-elements>li.parent:hover",
+			".am-left-sidebar .sidebar-elements > li.active > a",
+			".color-picker .color-swatch",
+			".card",
+			".shadow",
+			"shadow",
+			"card",
+			"second-",
+			".alt3 .am-left-sidebar .sidebar-elements>li.active>a",
+			"2d7cff",
+			".switch-button",
+			"style-alt",
+			"alt1",
+			"alt2",
+			"style",
+			"default",
+			".am-left-sidebar",
+			"787",
+			".am-top-header",
+			".btn-breadcrumb span a",
+			"btn-breadcrumb",
+			".btn-breadcrumb",
+			"switch-button",
+			"one",
+			"colors",
+			"#url",
+			"fill",
+			"update",
+			"colors",
+			"url(\"#gradient-rainbow-main\")",
+			"#gradient-rainbow-main",
+			"defs",
+			"color",
+			"one.js",
+			"one",
+			"colors",
+			"first-alt",
+			"breadcrumb:before",
+			"before",
+			"switch-button",
+			"alt1",
+			"#2f4050",
+			"092948",
+			"a5a5",
+			"select this",
+			"icon s7-edit",
+			"am-toggle",
+			"Device view",
+			"device view",
+			"device viw",
+			"sidebar-element",
+			"device view",
+			"sidebar",
+			"device",
+			".parent",
+			"parent",
+			".switch-button",
+			"switch-button",
+			"#b3b3b3",
+			".am-top-header .navbar-collapse .navbar-nav.am-nav-right > li:first-child > a",
+			"menu",
+			".am-top-header .navbar-collapse .navbar-nav.am-nav-right > li:first-child > a",
+			".am-top-header .navbar-collapse .navbar-nav > li > a",
+			".expanded-menu .am-left-sidebar",
+			"navbar-brand",
+			".am-top-header .navbar-collapse .navbar-nav > li > a",
+			".expanded-menu .am-top-header",
+			".am-top-header .navbar-collapse .navbar-nav.am-nav-right > li:first-child > a",
+			"likelihood",
+			"parent",
+			"switch-button",
+			"switch",
+			"navbar-brand",
+			".am-top-header .navbar-collapse .navbar-nav.am-nav-right > li:first-child > a",
+			"parent",
+			"asset list",
+			"dashboard",
+			".am-left-sidebar .sidebar-elements > li > a.align-middle.inline-block",
+			".am-left-sidebar .sidebar-elements > li > a",
+			".inline-block",
+			"Home",
+			"dashboard",
+			".am-content",
+			".am-left-sidebar",
+			"navbar-brand",
+			"toggle-left",
+			"img",
+			"collapse",
+			"am-navbar-collapse",
+			"sidebar",
+			"nosidebar",
+			"nsidebar",
+			"right-sidebar",
+			"Expl",
+			"init",
+			"init(",
+			"init",
+			"maingroup2",
+			"brushgroup",
+			"brush4",
+			"g.brush2",
+			"g.brush4",
+			"gbrush4",
+			"brush",
+			"gBrush",
+			"d3.select(\".brushGrou",
+			"g.brush",
+			"d3.select",
+			"gbrush",
+			"400",
+			"d3.select",
+			"group4",
+			"mainG",
+			"#chart",
+			"Two",
+			"#chart",
+			"#chart2",
+			"#chart1",
+			"\"#chart",
+			"\"chart",
+			"chart3",
+			"chart2",
+			"chart1",
+			"fourth chart",
+			"third chart",
+			"second chart",
+			"Sony"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"alt2",
+			"alt3",
+			"alt2",
+			"293846",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sidemenu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								865,
+								865
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/asimily.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 35969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35871,
+								35871
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 29557.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/untitled.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								296,
+								296
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Asimilyproject.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sty",
+				"css/style.css"
+			],
+			[
+				"dash",
+				"dashboard.html"
+			],
+			[
+				"asim",
+				"css/asimily.css"
+			],
+			[
+				"view",
+				"webapp/app/scripts/components/view_helpers.jsx"
+			],
+			[
+				"v_alert.js",
+				"webapp/app/scripts/components/alerts/v_alerts.jsx"
+			],
+			[
+				"metrics_",
+				"webapp/app/scripts/components/metrics/v_metrics_graph.jsx"
+			],
+			[
+				"v_dataz_gra",
+				"webapp/app/scripts/components/graph/v_data_zone_graph.jsx"
+			],
+			[
+				"style.css",
+				"webapp/app/styles/css/style.css"
+			],
+			[
+				"c_resour",
+				"webapp/app/scripts/containers/dashboard/c_resource_detail.jsx"
+			],
+			[
+				"v_resou",
+				"webapp/app/scripts/components/dashboard/v_resource_detail.jsx"
+			],
+			[
+				"view_he",
+				"webapp/app/scripts/components/view_helpers.jsx"
+			],
+			[
+				"devser",
+				"webapp/dev-server.js"
+			],
+			[
+				"v_alerts",
+				"webapp/app/scripts/components/alerts/v_alerts.jsx"
+			],
+			[
+				"c_con",
+				"webapp/app/scripts/containers/configuration/c_configuration.jsx"
+			],
+			[
+				"v_applca",
+				"webapp/app/scripts/components/configuration/application/v_application_configuration.jsx"
+			],
+			[
+				"c_appl",
+				"webapp/app/scripts/containers/configuration/application/c_application_configuration.jsx"
+			],
+			[
+				"devserver",
+				"webapp/dev-server.js"
+			],
+			[
+				"webpack",
+				"webapp/webpack.config.js"
+			],
+			[
+				"datazone_detai",
+				"webapp/mocks/Template_Mocks/datazone_details.html"
+			],
+			[
+				"disco",
+				"webapp/mocks/Initial_Mocks/discovery.html"
+			],
+			[
+				"privacerasty",
+				"webapp/mocks/Template_Mocks/css/privacera_styles.css"
+			],
+			[
+				"rescan.",
+				"webapp/mocks/Template_Mocks/rescan.html"
+			],
+			[
+				"blank",
+				"webapp/mocks/Template_Mocks/blank_index.html"
+			],
+			[
+				"date",
+				"webapp/node_modules/bootstrap-daterangepicker/daterangepicker.js"
+			],
+			[
+				"c_datazone_gra",
+				"webapp/app/scripts/containers/data_lineage/c_data_zone_graph.jsx"
+			],
+			[
+				"v_datazone_grap",
+				"webapp/app/scripts/components/graph/v_data_zone_graph.jsx"
+			],
+			[
+				"v_classific",
+				"webapp/app/scripts/components/discovery/v_classification_listing.jsx"
+			],
+			[
+				"components/tble",
+				"webapp/app/scripts/components/common_components/table.jsx"
+			],
+			[
+				"v_user",
+				"webapp/app/scripts/components/user_management/v_user_management.jsx"
+			],
+			[
+				"ActionButtons",
+				"webapp/app/scripts/components/common_components/action_buttons.jsx"
+			],
+			[
+				"v_scheme",
+				"webapp/app/scripts/components/crypto/scheme/v_scheme.jsx"
+			],
+			[
+				"v_diag",
+				"webapp/app/scripts/components/maintenance/v_diagnostics.jsx"
+			],
+			[
+				"v_metrics",
+				"webapp/app/scripts/components/metrics/v_metrics.jsx"
+			],
+			[
+				"VAlertsTable",
+				"webapp/app/scripts/components/alerts/v_alerts_table.jsx"
+			],
+			[
+				"v_hea",
+				"webapp/app/scripts/components/site/v_header.jsx"
+			],
+			[
+				"basecontai",
+				"webapp/app/scripts/containers/base_container.jsx"
+			],
+			[
+				"header.jsx",
+				"webapp/app/scripts/components/site/v_header.jsx"
+			],
+			[
+				"v_header.jsx",
+				"webapp/app/scripts/components/site/v_header.jsx"
+			],
+			[
+				"breadcrumb",
+				"webapp/node_modules/react-bootstrap/lib/Breadcrumb.js"
+			],
+			[
+				"headers",
+				"webapp/node_modules/node-fetch/lib/headers.js"
+			],
+			[
+				"routes",
+				"webapp/app/scripts/routers/routes.jsx"
+			],
+			[
+				"devse",
+				"webapp/dev-server.js"
+			],
+			[
+				"diagnostic",
+				"webapp/mocks/Template_Mocks/diagnostic_alternate.html"
+			],
+			[
+				"c_diagnostic",
+				"webapp/app/scripts/containers/maintenance/c_diagnostic_main.jsx"
+			],
+			[
+				"c_metr",
+				"webapp/app/scripts/containers/metrics/c_metrics_graph.jsx"
+			],
+			[
+				"metrics_gr",
+				"webapp/app/scripts/components/metrics/v_metrics_graph.jsx"
+			],
+			[
+				"c_metrics",
+				"webapp/app/scripts/containers/metrics/c_metrics.jsx"
+			],
+			[
+				"c_diag",
+				"webapp/app/scripts/containers/maintenance/c_diagnostics.jsx"
+			],
+			[
+				"v_diagno",
+				"webapp/app/scripts/components/maintenance/v_diagnostics.jsx"
+			],
+			[
+				"c_pol",
+				"webapp/app/scripts/containers/consent/c_policies.jsx"
+			],
+			[
+				"v_consent",
+				"webapp/app/scripts/components/consent/consent_management/v_consent_policy.jsx"
+			],
+			[
+				"data_inven",
+				"webapp/app/scripts/components/data_inventory/v_data_inventory.jsx"
+			],
+			[
+				"data_inventory",
+				"webapp/app/scripts/components/data_inventory/v_data_inventory.jsx"
+			],
+			[
+				"c_datazone_gr",
+				"webapp/app/scripts/containers/data_lineage/c_data_zone_graph.jsx"
+			],
+			[
+				"v_datazone_gr",
+				"webapp/app/scripts/components/graph/v_data_zone_graph.jsx"
+			],
+			[
+				"action_butt",
+				"webapp/app/scripts/components/common_components/action_buttons.jsx"
+			],
+			[
+				"v_datazone_das",
+				"webapp/app/scripts/components/datazone/v_datazone_dashboard.jsx"
+			],
+			[
+				"cconfigura",
+				"webapp/app/scripts/containers/configuration/c_configuration.jsx"
+			],
+			[
+				"c_data_zone_graph",
+				"webapp/app/scripts/containers/data_lineage/c_data_zone_graph.jsx"
+			],
+			[
+				"v_res",
+				"webapp/app/scripts/components/dashboard/v_resource_detail.jsx"
+			],
+			[
+				"v_data_zone_graph",
+				"webapp/app/scripts/components/graph/v_data_zone_graph.jsx"
+			],
+			[
+				"v_resource",
+				"webapp/app/scripts/components/dashboard/v_resource_detail.jsx"
+			],
+			[
+				"v_proxy",
+				"webapp/app/scripts/components/user_management/v_proxy_users.jsx"
+			],
+			[
+				"v_privi",
+				"webapp/app/scripts/components/user_management/v_priviledge_users.jsx"
+			],
+			[
+				"c_config",
+				"webapp/app/scripts/containers/configuration/c_configuration.jsx"
+			],
+			[
+				"rout",
+				"webapp/app/scripts/routers/routes.jsx"
+			],
+			[
+				"v_policy",
+				"webapp/app/scripts/components/consent/consent_management/v_consent_policy.jsx"
+			],
+			[
+				"v_score_",
+				"webapp/app/scripts/components/configuration/application/v_application_score_threshold.jsx"
+			],
+			[
+				"v_applic",
+				"webapp/app/scripts/components/configuration/application/v_application_configuration.jsx"
+			],
+			[
+				"v_application",
+				"webapp/app/scripts/components/dictionary/v_application_configuration.jsx"
+			],
+			[
+				"v_data_access",
+				"webapp/app/scripts/components/dictionary/v_data_access.jsx"
+			],
+			[
+				"data_acc",
+				"webapp/app/scripts/components/dictionary/v_data_access.jsx"
+			],
+			[
+				"v_data_in",
+				"webapp/app/scripts/components/data_inventory/v_data_inventory.jsx"
+			],
+			[
+				"compliance",
+				"webapp/app/scripts/components/compliance_reports/v_compliance_reports.jsx"
+			],
+			[
+				"v_aud",
+				"webapp/app/scripts/components/audits/v_audits_table.jsx"
+			],
+			[
+				"v_audi",
+				"webapp/app/scripts/components/audits/v_audits.jsx"
+			],
+			[
+				"datazone_grap",
+				"webapp/app/scripts/components/graph/v_data_zone_graph.jsx"
+			],
+			[
+				"v_discovery",
+				"webapp/app/scripts/components/discovery/v_discovery.jsx"
+			],
+			[
+				"user_maanagement_",
+				"webapp/app/scripts/containers/user_management/c_user_management_main.jsx"
+			],
+			[
+				"v_diagnostic",
+				"webapp/app/scripts/components/maintenance/v_diagnostics.jsx"
+			],
+			[
+				"c_diagno",
+				"webapp/app/scripts/containers/maintenance/c_diagnostic_main.jsx"
+			],
+			[
+				"app/scripts/containers/discovery/c_data_detail.jsx",
+				"webapp/app/scripts/containers/discovery/c_data_detail.jsx"
+			],
+			[
+				"c_data_clas",
+				"webapp/app/scripts/containers/discovery/c_data_classification.jsx"
+			],
+			[
+				"app/scripts/containers/dictionary/c_dictionary.jsx",
+				"webapp/app/scripts/containers/configuration/dictionary/c_dictionary.jsx"
+			],
+			[
+				"app/scripts/containers/datazone/c_datazone_detail.jsx",
+				"webapp/app/scripts/containers/datazone/c_datazone_detail.jsx"
+			],
+			[
+				"app/scripts/containers/dashboard/c_dashboard_main.jsx",
+				"webapp/app/scripts/containers/dashboard/c_dashboard_main.jsx"
+			],
+			[
+				"app/scripts/containers/consent/c_policies.js",
+				"webapp/app/scripts/containers/consent/c_policies.jsx"
+			],
+			[
+				" app/scripts/containers/configuration/c_configuration.jsx",
+				"webapp/app/scripts/containers/configuration/c_configuration.jsx"
+			],
+			[
+				"c_repor",
+				"webapp/app/scripts/containers/compliance_reports/c_reports.jsx"
+			],
+			[
+				" app/scripts/components/user_management/v_user_management.jsx",
+				"webapp/app/scripts/components/user_management/v_user_management.jsx"
+			],
+			[
+				"oozie",
+				"webapp/app/scripts/components/oozie_workflow/v_oozie_workflow.jsx"
+			],
+			[
+				"app/scripts/components/logs/v_logs.jsx",
+				"webapp/app/scripts/components/logs/v_logs.jsx"
+			],
+			[
+				"v_sanke",
+				"webapp/app/scripts/components/graph/v_sankey_diagram.jsx"
+			],
+			[
+				"v_datazone_g",
+				"webapp/app/scripts/components/graph/v_data_zone_graph.jsx"
+			],
+			[
+				"v_pending",
+				"webapp/app/scripts/components/discovery/v_pending_review.jsx"
+			],
+			[
+				"v_disco",
+				"webapp/app/scripts/components/discovery/v_discovery.jsx"
+			],
+			[
+				"v_classifica",
+				"webapp/app/scripts/components/discovery/v_classification_listing.jsx"
+			],
+			[
+				"v_system",
+				"webapp/app/scripts/components/dictionary/v_system_application.jsx"
+			],
+			[
+				"v_dataa",
+				"webapp/app/scripts/components/dictionary/v_data_access.jsx"
+			],
+			[
+				"v_datazone",
+				"webapp/app/scripts/components/datazone/v_datazone_dashboard.jsx"
+			],
+			[
+				"v_dat",
+				"webapp/app/scripts/components/dashboard/v_data_summary.jsx"
+			],
+			[
+				"v_consen",
+				"webapp/app/scripts/components/consent/v_consent_user.jsx"
+			],
+			[
+				"v_tagsinf",
+				"webapp/app/scripts/components/configuration/tags_info/v_tags_info.jsx"
+			],
+			[
+				"v_pat",
+				"webapp/app/scripts/components/configuration/patterns/v_patterns.jsx"
+			],
+			[
+				"v_line",
+				"webapp/app/scripts/components/configuration/lineage/v_lineage_config.jsx"
+			],
+			[
+				"v_dictio",
+				"webapp/app/scripts/components/configuration/dictionary/v_dictionary.jsx"
+			],
+			[
+				"v_datazo",
+				"webapp/app/scripts/components/configuration/datazone/v_datazone.jsx"
+			],
+			[
+				"v_data",
+				"webapp/app/scripts/components/dashboard/v_data_summary.jsx"
+			],
+			[
+				"app/scripts/components/configuration/application/v_application_configuration.jsx",
+				"webapp/app/scripts/components/configuration/application/v_application_configuration.jsx"
+			],
+			[
+				"v_compl",
+				"webapp/app/scripts/components/compliance_reports/v_compliance_reports.jsx"
+			],
+			[
+				"v_heat",
+				"webapp/app/scripts/components/alerts/v_heat_map.jsx"
+			],
+			[
+				"v_alert",
+				"webapp/app/scripts/components/alerts/v_alerts.jsx"
+			],
+			[
+				"style",
+				"webapp/app/styles/css/style.css"
+			],
+			[
+				"c_metric",
+				"webapp/app/scripts/containers/metrics/c_metrics_graph.jsx"
+			],
+			[
+				"c_met",
+				"webapp/app/scripts/containers/metrics/c_metrics_graph.jsx"
+			],
+			[
+				"",
+				"webapp/app/scripts/components/metrics/v_metrics_graph.jsx"
+			],
+			[
+				"widg",
+				"webapp/app/scripts/components/common_components/widgets.jsx"
+			],
+			[
+				"filters.",
+				"webapp/app/scripts/components/common_components/filters.jsx"
+			],
+			[
+				"v_metrics_",
+				"webapp/app/scripts/components/metrics/v_metrics_graph.jsx"
+			],
+			[
+				"v_logs",
+				"webapp/app/scripts/components/logs/v_logs.jsx"
+			],
+			[
+				"SearchComponent",
+				"webapp/app/scripts/components/alerts/v_search_component.jsx"
+			],
+			[
+				"DatePicker",
+				"webapp/node_modules/bootstrap-daterangepicker/daterangepicker.css"
+			],
+			[
+				"search_compo",
+				"webapp/app/scripts/components/alerts/v_search_component.jsx"
+			],
+			[
+				"c_metri",
+				"webapp/app/scripts/containers/metrics/c_metrics.jsx"
+			],
+			[
+				"c_diagn",
+				"webapp/app/scripts/containers/maintenance/c_diagnostic_main.jsx"
+			],
+			[
+				"diagns",
+				"webapp/app/scripts/components/maintenance/v_diagnostics.jsx"
+			],
+			[
+				"v_heat_map",
+				"app/scripts/components/alerts/v_heat_map.jsx"
+			],
+			[
+				"data_summ",
+				"app/scripts/components/dashboard/v_data_summary.jsx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Privacera.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 957.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

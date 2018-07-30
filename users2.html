@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Asimily</title>
+<link rel="stylesheet" type="text/css" href="css/stroke7.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/nanoscroller.css"/>
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link rel="stylesheet" href="css/bootstrap-editable.css" type="text/css"/>
+<link rel="stylesheet" href="css/bootstrap-switch.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/select2.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/asimily.css" type="text/css"/>
+</head>
+<body>
+<div class="am-wrapper am-nosidebar-left">
+    <nav class="navbar navbar-default navbar-fixed-top am-top-header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="page-title"><span>No Sidebar Left</span></div>
+                <a href="index.html" class="navbar-brand"></a> 
+            </div>
+            <a href="#" class="am-toggle-right-sidebar"><span class="icon s7-edit"></span></a>
+            <a href="#" data-toggle="collapse" data-target="#am-navbar-collapse" class="am-toggle-top-header-menu collapsed"><span class="icon s7-angle-down"></span></a>
+            <div id="am-navbar-collapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right am-user-nav">
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><img src="img/avatar.png"><span class="user-name">Samantha Amaretti</span><span class="angle-down s7-angle-down"></span></a>
+                        <ul role="menu" class="dropdown-menu">
+                            <li><a href="#"> <span class="icon s7-user"></span>My profile</a></li>
+                            <li><a href="#"> <span class="icon s7-config"></span>Settings</a></li>
+                            <li><a href="#"> <span class="icon s7-help1"></span>Help</a></li>
+                            <li><a href="#"> <span class="icon s7-power"></span>Sign Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav am-nav-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="summary.html">Summary</a></li>
+                    <li><a href="configuration.html">Configuration</a></li>
+                    <li><a href="admin-module.html">Admin Module</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="am-content">
+        <div class="page-head">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="configuration.html">Configuration</a></li>
+                <li class="active">Users</li>
+            </ol>
+            <div class="btn-group view-switcher">
+                <button type="button" class="btn btn-link active" id="btn-gridView"><i class="fa fa-th-large"></i></button>
+                <button type="button" class="btn btn-link" id="btn-tableView"><i class="fa fa-list"></i></button>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="widget row">
+                <div class="col-md-10">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="s7-search"></i></span>
+                        <input type="text" placeholder="Search..." class="form-control">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <a href="javascript:void(0);" class="btn-add-user" data-toggle="modal" data-target="#add-user"><i class="fa fa-user-plus"></i> Add New User</a>
+                </div>
+            </div>
+            <div class="row tableView">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>User</th>
+                                        <th>Role</th>
+                                        <th>Email</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Tony Stark</td>
+                                        <td>Admin</td>
+                                        <td>iron_man@asimily.com</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn-action text-info" data-toggle="modal" data-target="#edit-user"><i class="fa fa-pencil"></i></a>
+                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bruce Banner</td>
+                                        <td>User</td>
+                                        <td>hulk@asimily.com</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn-action text-info" data-toggle="modal" data-target="#edit-user"><i class="fa fa-pencil"></i></a>
+                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Steve Rogers</td>
+                                        <td>User</td>
+                                        <td>captain_america@asimily.com</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn-action text-info" data-toggle="modal" data-target="#edit-user"><i class="fa fa-pencil"></i></a>
+                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Peter Quill</td>
+                                        <td>User</td>
+                                        <td>starlord@asimily.com</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn-action text-info" data-toggle="modal" data-target="#edit-user"><i class="fa fa-pencil"></i></a>
+                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wanda Maximoff</td>
+                                        <td>User</td>
+                                        <td>scarlet_witch@asimily.com</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-pencil"></i></a>
+                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Natasha Romanoff</td>
+                                        <td>Admin</td>
+                                        <td>black_widow@asimily.com</td>
+                                        <td>
+                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-pencil"></i></a>
+                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gridView">
+                <div class="col-sm-3">
+                    <div class="user-card">
+                        <a href="javascript:void(0);" class="user-card-btn edit" data-toggle="modal" data-target="#edit-user"><i class="s7-pen"></i></a>
+                        <a href="javascript:void(0);" class="user-card-btn delete"><i class="s7-trash"></i></a>
+                        <div class="icon"><span class="s7-user"></span></div>
+                        <h2>Tony Stark</h2>
+                        <h5>Admin</h5>
+                        <p align="center"><i class="fa fa-envelope-o"></i> iron_man@asimily.com</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="user-card">
+                        <a href="javascript:void(0);" class="user-card-btn edit" data-toggle="modal" data-target="#edit-user"><i class="s7-pen"></i></a>
+                        <a href="javascript:void(0);" class="user-card-btn delete"><i class="s7-trash"></i></a>
+                        <div class="icon"><span class="s7-user"></span></div>
+                        <h2>Bruce Banner</h2>
+                        <h5>User</h5>
+                        <p align="center"><i class="fa fa-envelope-o"></i> hulk@asimily.com</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="user-card">
+                        <a href="javascript:void(0);" class="user-card-btn edit" data-toggle="modal" data-target="#edit-user"><i class="s7-pen"></i></a>
+                        <a href="javascript:void(0);" class="user-card-btn delete"><i class="s7-trash"></i></a>
+                        <div class="icon"><span class="s7-user"></span></div>
+                        <h2>Steve Rogers</h2>
+                        <h5>User</h5>
+                        <p align="center"><i class="fa fa-envelope-o"></i> captain_america@asimily.com</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="user-card">
+                        <a href="javascript:void(0);" class="user-card-btn edit" data-toggle="modal" data-target="#edit-user"><i class="s7-pen"></i></a>
+                        <a href="javascript:void(0);" class="user-card-btn delete"><i class="s7-trash"></i></a>
+                        <div class="icon"><span class="s7-user"></span></div>
+                        <h2>Peter Quill</h2>
+                        <h5>User</h5>
+                        <p align="center"><i class="fa fa-envelope-o"></i> starlord@asimily.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gridView">
+                <div class="col-sm-3">
+                    <div class="user-card">
+                        <a href="javascript:void(0);" class="user-card-btn edit"><i class="s7-pen"></i></a>
+                        <a href="javascript:void(0);" class="user-card-btn delete"><i class="s7-trash"></i></a>
+                        <div class="icon"><span class="s7-user"></span></div>
+                        <h2>Wanda Maximoff</h2>
+                        <h5>User</h5>
+                        <p align="center"><i class="fa fa-envelope-o"></i> scarlet_witch@asimily.com</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="user-card">
+                        <a href="javascript:void(0);" class="user-card-btn edit"><i class="s7-pen"></i></a>
+                        <a href="javascript:void(0);" class="user-card-btn delete"><i class="s7-trash"></i></a>
+                        <div class="icon"><span class="s7-user"></span></div>
+                        <h2>Natasha Romanoff</h2>
+                        <h5>Admin</h5>
+                        <p align="center"><i class="fa fa-envelope-o"></i> black_widow@asimily.com</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="user-card">
+                        <a href="javascript:void(0);" class="user-card-btn edit"><i class="s7-pen"></i></a>
+                        <a href="javascript:void(0);" class="user-card-btn delete"><i class="s7-trash"></i></a>
+                        <div class="icon"><span class="s7-user"></span></div>
+                        <h2>Peter Parker</h2>
+                        <h5>User</h5>
+                        <p align="center"><i class="fa fa-envelope-o"></i> spiderman@asimily.com</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="user-card">
+                        <a href="javascript:void(0);" class="user-card-btn edit"><i class="s7-pen"></i></a>
+                        <a href="javascript:void(0);" class="user-card-btn delete"><i class="s7-trash"></i></a>
+                        <div class="icon"><span class="s7-user"></span></div>
+                        <h2>Scott Lang</h2>
+                        <h5>Admin</h5>
+                        <p align="center"><i class="fa fa-envelope-o"></i> antman@asimily.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add User -->
+<div id="add-user" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+        <h3 class="modal-title">Add New User</h3>
+      </div>
+      <div class="modal-body form-horizontal">
+        <div class="form-group">
+            <label class="col-sm-3 control-label">First name:</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Last name:</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Role:</label>
+            <div class="col-sm-9">
+                <div class="am-radio inline" data-toggle="tooltip" title="Admin user has Read, write and configuration capability">
+                  <input type="radio" checked="" name="user-role" id="rad4">
+                  <label for="rad4">Admin</label>
+                </div>
+                <div class="am-radio inline" data-toggle="tooltip" title="Superuser has read and write capability">
+                  <input type="radio" checked="" name="user-role" id="rad3">
+                  <label for="rad3">Super User</label>
+                </div>
+                <div class="am-radio inline" data-toggle="tooltip" title="User has only read capability">
+                  <input type="radio" checked="" name="user-role" id="rad5">
+                  <label for="rad5">User</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Email:</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Password:</label>
+            <div class="col-sm-9">
+              <input type="password" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Confirm Password:</label>
+            <div class="col-sm-9">
+              <input type="password" class="form-control" />
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
+        <button type="button" data-dismiss="modal" class="btn btn-primary">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Edit User -->
+<div id="edit-user" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+        <h3 class="modal-title">Edit User</h3>
+      </div>
+      <div class="modal-body no-padding">
+        <div class="tab-container tab-likelihood">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#update-user" data-toggle="tab" aria-expanded="true">Update User</a></li>
+                <li class=""><a href="#change-password" data-toggle="tab" aria-expanded="false">Reset Password</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="update-user" class="tab-pane cont fade active in">
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">First name:</label>
+                            <div class="col-sm-9">
+                              <input type="text" class="form-control" value="Tony" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Last name:</label>
+                            <div class="col-sm-9">
+                              <input type="text" class="form-control" value="Stark" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Role:</label>
+                            <div class="col-sm-9">
+                                <div class="am-radio inline" data-toggle="tooltip" title="Admin user has Read, write and configuration capability">
+                                  <input type="radio" checked="" name="user-role" id="rad4">
+                                  <label for="rad4">Admin</label>
+                                </div>
+                                <div class="am-radio inline" data-toggle="tooltip" title="Superuser has read and write capability">
+                                  <input type="radio" name="user-role" id="rad3">
+                                  <label for="rad3">Super User</label>
+                                </div>
+                                <div class="am-radio inline" data-toggle="tooltip" title="User has only read capability">
+                                  <input type="radio" name="user-role" id="rad5">
+                                  <label for="rad5">User</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Email:</label>
+                            <div class="col-sm-9">
+                              <input type="text" class="form-control" value="iron_man@asimily.com" readonly="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="change-password" class="tab-pane cont fade">
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">Enter Password:</label>
+                            <div class="col-sm-8">
+                              <input type="password" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">Confirm Password:</label>
+                            <div class="col-sm-8">
+                              <input type="password" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
+        <button type="button" data-dismiss="modal" class="btn btn-primary">Update</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nanoscroller.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/prettify.js" type="text/javascript"></script>
+    <script src="js/bootstrap-editable.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap-switch.min.js" type="text/javascript"></script>
+    <script src="js/select2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $(".tableView").hide();
+        $(".view-switcher .btn").on("click", function(e) {
+            $(".gridView").hide();
+            $(".tableView").hide();
+            $(".view-switcher .btn").removeClass('active');
+            var get_id = $(e.currentTarget).prop("id");
+            if(get_id === "btn-gridView") {
+
+                $(".gridView").show();
+            }
+            else {
+                $(".tableView").show();
+            }
+            $(this).addClass("active");
+        });
+
+        $('[data-toggle="tooltip"]').tooltip({
+            container: 'body'
+        });
+      });
+    </script>
+</body>
+</html>

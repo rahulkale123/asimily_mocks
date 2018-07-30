@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Asimily</title>
+<link rel="stylesheet" type="text/css" href="css/stroke7.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/nanoscroller.css"/>
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link rel="stylesheet" href="css/bootstrap-editable.css" type="text/css"/>
+<link rel="stylesheet" href="css/bootstrap-switch.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/asimily.css" type="text/css"/>
+</head>
+<body>
+<div class="am-wrapper am-nosidebar-left">
+    <nav class="navbar navbar-default navbar-fixed-top am-top-header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="page-title"><span>No Sidebar Left</span></div>
+                <a href="index.html" class="navbar-brand"></a> 
+            </div>
+            <a href="#" class="am-toggle-right-sidebar"><span class="icon s7-edit"></span></a>
+            <a href="#" data-toggle="collapse" data-target="#am-navbar-collapse" class="am-toggle-top-header-menu collapsed"><span class="icon s7-angle-down"></span></a>
+            <div id="am-navbar-collapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right am-user-nav">
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><img src="img/avatar.png"><span class="user-name">Samantha Amaretti</span><span class="angle-down s7-angle-down"></span></a>
+                        <ul role="menu" class="dropdown-menu">
+                            <li><a href="#"> <span class="icon s7-user"></span>My profile</a></li>
+                            <li><a href="#"> <span class="icon s7-config"></span>Settings</a></li>
+                            <li><a href="#"> <span class="icon s7-help1"></span>Help</a></li>
+                            <li><a href="#"> <span class="icon s7-power"></span>Sign Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav am-nav-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="summary.html">Summary</a></li>
+                    <li><a href="configuration.html">Configuration</a></li>
+                    <li><a href="admin-module.html">Admin Module</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="am-content">
+        <div class="page-head">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="configuration.html">Configuration</a></li>
+                <li class="active">MDS2 form HN 12013</li>
+            </ol>
+        </div>
+        <div class="main-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="widget">
+                        <div class="clearfix">
+                            <div class="input-group pull-left col-md-4">
+                                <input type="text" class="form-control" />
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button">Search</button>
+                                </span>
+                            </div>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#add-security-posture" class="btn btn-alt1 pull-right"><i class="fa fa-plus"></i> Add Category</a>
+                        </div>
+                        <hr/>
+                        <div class="panel-group panel-security" id="security-accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading clearfix" role="tab" id="headingIngegrity">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#security-accordion" href="#collapseIntegrity" aria-expanded="true" aria-controls="collapseIntegrity">Automatic Logoff (ALOF)</a> 
+                                        <i class="fa fa-info-circle" data-toggle="tooltip" title="The device's ability to prevent access and misuse by unauthorized users if device is left idle for a period of time."></i>
+                                    </h4>
+                                    <div class="panel-actions">
+                                        <!-- <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a> -->
+                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#add-security-question"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                                <div id="collapseIntegrity" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingIngegrity">
+                                    <div class="panel-body">
+                                        <table class="table table-striped table-security-posture">
+                                            <thead>
+                                                <tr>
+                                                    <th width="85%">Question</th>
+                                                    <th>Score</th>
+                                                    <th>Actions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="parent collapsed">
+                                                    <td><strong>1.</strong> Can the device be configured to force reauthorization of logged-in user(s) after a predetermined length of inactivity (e.g., auto-logoff, session lock, password protected screen saver)?</td>
+                                                    <td>3</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action" data-toggle="modal" data-target="#deleteParentQuestion"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr class="child">
+                                                    <td><strong>1.1</strong> Is the length of inactivity time before auto-logoff/screen lock user or administrator configurable? (Indicate time [fixed or configurable range] in notes.)</td>
+                                                    <td>5</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr class="child">
+                                                    <td><strong>1.2</strong> Can auto-logoff/screen lock be manually invoked (e.g., via a shortcut key or proximity sensor, etc.) by the user?</td>
+                                                    <td>4</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading clearfix" role="tab" id="headingAccess">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#security-accordion" href="#collapseAccess" aria-expanded="false" aria-controls="collapseAccess">Audit Control (AUDT)</a>
+                                        <i class="fa fa-info-circle" data-toggle="tooltip" title="The ability to reliably audit activity on the device."></i>
+                                    </h4>
+                                    <div class="panel-actions">
+                                        <!-- <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a> -->
+                                        <a href="javascript:void(0);" class="addQuestion"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                                <div id="collapseAccess" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAccess">
+                                    <div class="panel-body">
+                                        <table class="table table-striped table-security-posture">
+                                            <thead>
+                                                <tr>
+                                                    <th width="85%">Question</th>
+                                                    <th>Score</th>
+                                                    <th>Actions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><strong>1.</strong> Can the medical device create an audit trail?</td>
+                                                    <td>-</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr class="parent">
+                                                    <td colspan="5"><strong>2.</strong> Indicate which of the following events are recorded in the audit log:</td>
+                                                </tr>
+                                                <tr class="child">
+                                                    <td><strong>2.1</strong> Login/logout?</td>
+                                                    <td>-</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr class="child">
+                                                    <td><strong>2.2</strong> Display/presentation of data?</td>
+                                                    <td>-</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr class="child">
+                                                    <td><strong>2.3</strong> Creation/modification/deletion of data?</td>
+                                                    <td>-</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr class="child">
+                                                    <td><strong>2.4</strong> Import/export of data from removable media?</td>
+                                                    <td>-</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr class="parent child">
+                                                    <td><strong>2.5</strong> Receipt/transmission of data from/to external (e.g., network) connection?</td>
+                                                    <td>-</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr class="grand child">
+                                                    <td><strong>2.5.1</strong> Remote service activity?</td>
+                                                    <td>-</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr class="child">
+                                                    <td><strong>2.6</strong> Other events? (describe in the notes section)</td>
+                                                    <td>-</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading clearfix" role="tab" id="headingDevice">
+                                    <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#security-accordion" href="#collapseDevice" aria-expanded="false" aria-controls="collapseDevice">Device Security</a></h4>
+                                    <div class="panel-actions">
+                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a>
+                                        <a href="javascript:void(0);" class="addQuestion"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                                <div id="collapseDevice" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingDevice">
+                                    <div class="panel-body">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th width="85%">Question</th>
+                                                    <th>Score</th>
+                                                    <th>Actions</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Are you using AV or other hardening software?</td>
+                                                    <td>3</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="javascript:void(0);" class="editable">Morbi elementum tortor nibh, sed lobortis risus accumsan id?</a></td>
+                                                    <td>5</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="javascript:void(0);" class="editable">Aenean non ligula sed ligula finibus ultrices eu in metus?</a></td>
+                                                    <td>5</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="javascript:void(0);" class="editable">Pellentesque porttitor sem fermentum auctor tempus?</a></td>
+                                                    <td>5</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="javascript:void(0);" class="editable">Nam sodales nunc sed commodo rutrum?</a></td>
+                                                    <td>5</td>
+                                                    <td>
+                                                        <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                        <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading clearfix" role="tab" id="headingNew">
+                                    <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#security-accordion" href="#collapseNew" aria-expanded="false" aria-controls="collapseNew">New Category</a></h4>
+                                    <div class="panel-actions">
+                                        <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a>
+                                        <a href="javascript:void(0);" class="addQuestion"><i class="fa fa-plus"></i></a>
+                                    </div>
+                                </div>
+                                <div id="collapseNew" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNew">
+                                    <div class="panel-body">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th width="85%">Question</th>
+                                                    <th>Response</th>
+                                                    <th>Score</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="3" align="center">No Question Added. Click on <i class="fa fa-plus"></i> to add questions under this catagory.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Security Posture -->
+<div id="add-security-posture" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+        <h3 class="modal-title">Add Category</h3>
+      </div>
+      <div class="modal-body form-horizontal">
+        <div class="form-group">
+            <label class="col-sm-4 control-label">Category Name:</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" />
+            </div>
+        </div>
+        <!-- <div class="form-group">
+            <label class="col-sm-4 control-label">Assign Device Group:</label>
+            <div class="col-sm-8">
+              <select class="form-control" disabled="">
+                <option>All Devices</option>
+                  <option>Group 1</option>
+                  <option>Group 2</option>
+                  <option>Group 3</option>
+                  <option>Group A</option>
+                  <option>Group B</option>
+                  <option>Group C</option>
+              </select>
+            </div>
+        </div> -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
+        <button type="button" data-dismiss="modal" class="btn btn-primary">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Edit Security Posture -->
+<div id="add-security-question" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+                <h3 class="modal-title">Add Security Question</h3>
+            </div>
+            <div class="modal-body form-horizontal">
+                <div class="form-group"> 
+                    <label class="col-sm-3 control-label">Question</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">Have Response?</label>
+                    <div class="col-sm-2">
+                        <input type="checkbox" name="my-checkbox" data-size="small" data-on-text="Yes" data-off-text="No" />
+                    </div>
+                    <div class="col-sm-3">
+                        <i class="fa fa-info-circle response-info" data-toggle="popover" data-content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."></i>
+                    </div>
+                </div>
+                <div class="form-group"> 
+                    <label class="col-sm-3 control-label">Response</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group"> 
+                    <label class="col-sm-3 control-label">Score</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
+                <button type="button" data-dismiss="modal" class="btn btn-primary">Add</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Delete Alert -->
+<div id="deleteParentQuestion" tabindex="-1" role="dialog" class="modal fade">
+    <div class="modal-dialog modal-full-color">
+        <div class="modal-content modal-sm">
+            <div class="modal-body">
+                <div class="text-center">
+                    <div class="i-circle primary"><i class="icon s7-trash"></i></div>
+                    <h4>Alert!</h4>
+                    <p>You are about to delete parent question. All the child questions under this sections will also be deleted permanently. Are you sure you want to proceeed?</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="btn btn-primary btn-shade1">Cancel</button>
+                <button type="button" data-dismiss="modal" class="btn btn-primary btn-shade1">Proceed</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nanoscroller.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/prettify.js" type="text/javascript"></script>
+    <script src="js/bootstrap-editable.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap-switch.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+      $(document).ready(function(){
+        $(".table-security-posture .child").hide();
+        $(".table-security-posture .parent").on("click", function() {
+            $(this).nextAll('.child').toggle();
+            //$(".table-security-posture .child")
+            $(this).toggleClass("collapsed");
+        });
+
+        $('[data-toggle="tooltip"]').tooltip();
+
+        $('[data-toggle="popover"]').popover({
+            trigger: 'hover'
+        });
+
+        $('.editable').editable({
+            placement: 'top'
+        });
+
+        $("[name='my-checkbox']").bootstrapSwitch();
+      });
+    </script>
+</body>
+</html>

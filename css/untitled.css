@@ -1,0 +1,63 @@
+/*Alternate Style 2*/
+
+.alt2 .btn-breadcrumb:before {
+    background-color: #1C4E80;
+}
+
+.alt2 .am-left-sidebar {
+    background-color: #2f4050;
+}
+
+.alt2 .am-top-header {
+    background-color: #2f4050;
+}
+
+.alt2 .am-left-sidebar .sidebar-elements>li.parent:hover {
+    background-color: #293846;
+}
+
+.alt2 .am-left-sidebar .sidebar-elements>li.parent {
+    border-color: transparent;
+}
+
+.alt2 .am-left-sidebar .sidebar-elements>li.parent.active {
+    background-color: #293846;
+}
+
+.alt2 .am-left-sidebar .sidebar-elements>li.active>a {
+    border-color: #fff;
+}
+
+.alt2 .am-top-header .navbar-header .navbar-brand {
+    background-color: #0F3D69;
+    border-color: transparent;
+}
+
+.alt2 .sidebar-elements .children {
+    border-color: #fff;
+    background-color: #293846;
+}
+
+.alt2 .am-left-sidebar .sidebar-elements>li:hover,
+.alt2 .am-left-sidebar .sidebar-elements>li.open {
+    background-color: #2e67a1;
+}
+
+.alt2 .switch-button {
+    background-color: #1C4E80;
+}
+
+.alt2 .navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: #efefef;
+}
+
+
+.alt2 .btn-breadcrumb span,
+.alt2 .btn-breadcrumb span a {
+    color: #1C4E80;
+}
+
+
+/*End of Alternate Style 1*/

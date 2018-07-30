@@ -1,0 +1,1922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Asimily</title>
+<link rel="stylesheet" type="text/css" href="css/stroke7.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/nanoscroller.css"/>
+<!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link rel="stylesheet" href="css/style.css" type="text/css"/>
+<link rel="stylesheet" href="css/bootstrap-editable.css" type="text/css"/>
+<link rel="stylesheet" href="css/bootstrap-switch.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/asimily.css" type="text/css"/>
+</head>
+<body>
+<div class="am-wrapper am-nosidebar-left">
+    <nav class="navbar navbar-default navbar-fixed-top am-top-header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="page-title"><span>No Sidebar Left</span></div>
+                <a href="index.html" class="navbar-brand"></a> 
+            </div>
+            <a href="#" class="am-toggle-right-sidebar"><span class="icon s7-edit"></span></a>
+            <a href="#" data-toggle="collapse" data-target="#am-navbar-collapse" class="am-toggle-top-header-menu collapsed"><span class="icon s7-angle-down"></span></a>
+            <div id="am-navbar-collapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right am-user-nav">
+                    <li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdown-toggle"><img src="img/avatar.png"><span class="user-name">Samantha Amaretti</span><span class="angle-down s7-angle-down"></span></a>
+                        <ul role="menu" class="dropdown-menu">
+                            <li><a href="#"> <span class="icon s7-user"></span>My profile</a></li>
+                            <li><a href="#"> <span class="icon s7-config"></span>Settings</a></li>
+                            <li><a href="#"> <span class="icon s7-help1"></span>Help</a></li>
+                            <li><a href="#"> <span class="icon s7-power"></span>Sign Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav am-nav-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="summary.html">Summary</a></li>
+                    <li><a href="configuration.html">Configuration</a></li>
+                    <li><a href="admin-module.html">Admin Module</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="am-content">
+        <div class="page-head">
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Device Information</li>
+            </ol>
+        </div>
+        <div class="main-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="widget">
+                        <div class="row row-margin-bottom">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="input-group">
+                                    <div class="input-group-btn">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MAC <span class="caret"></span></button>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">MAC</a></li>
+                                            <li><a href="#">IP</a></li>
+                                        </ul>
+                                    </div>
+                                    <input type="text" class="form-control">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-primary" type="button">Search</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="img/icon-cardiogram.png" class="img-responsive" />
+                                    </div>
+                                    <div class="col-md-9 form-horizontal">
+                                        <table class="device-summary-table">
+                                            <tr>
+                                                <th>Device</th>
+                                                <td>CardioLab</td>
+                                                <th>Manufacturer</th>
+                                                <td>GE</td>
+                                            </tr>
+                                            <tr>
+                                                <th>IP</th>
+                                                <td>192.168.5.1</td>
+                                                <th>MAC</th>
+                                                <td>00:1b:63:84:45:34</td>
+                                            </tr>
+                                            <tr>
+                                                <th>OS</th>
+                                                <td>Windows XP</td>
+                                                <th>Utilization</th>
+                                                <td>40%</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tab-container">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#details" data-toggle="tab">Asset Details</a></li>
+                            <li><a href="#topology" data-toggle="tab">Topology</a></li>
+                            <li><a href="#likelihood" data-toggle="tab">Likelihood</a></li>
+                            <li><a href="#impact" data-toggle="tab">Impact</a></li>
+                            <li><a href="#anomaly" data-toggle="tab">Anomaly</a></li>
+                            <li><a href="#recall" data-toggle="tab">Recall</a></li>
+                            <li><a href="#recommendation" data-toggle="tab">Recommendation</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="details" class="tab-pane active cont">
+                                <div class="form-horizontal">
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">HostName:</label>
+                                        <div class="col-sm-2">
+                                            <p class="form-control-static">CARDIO DEVICE</p>
+                                        </div>
+                                        <label class="col-sm-2 control-label">Serial Number:</label>
+                                        <div class="col-sm-2">
+                                            <p><a href="javascript:void(0)" class="editable">38478-5T</a></p>
+                                        </div>
+                                        <label class="col-sm-2 control-label">Software Version:</label>
+                                        <div class="col-sm-2">
+                                            <p><a href="javascript:void(0)" class="editable">0.6.0</a></p>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="form-group">
+                                        <label class="col-sm-2 control-label">Open Ports:</label>
+                                        <div class="col-sm-4">
+                                        <p class="form-control-static">22, 46, 84, 76</p>
+                                        </div>
+                                    </div> -->
+                                    <!-- <div class="form-group">
+                                        <label class="col-sm-2 control-label">Services/Applications:</label>
+                                        <div class="col-sm-6">
+                                            <p class="form-control-static">FTP, SSH, TELNET</p>
+                                        </div>
+                                    </div> -->
+                                    <div class="form-group">
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <table class="table table-asimily able-application">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Name <button class="btn btn-info btn-xs pull-right" data-toggle="modal" data-target="#add-service-application"><i class="fa fa-plus"></i></button></th>
+                                                        <th>Version</th>
+                                                        <th>Port #</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><i class="fa fa-gear"></i> Mozilla Firefox</td>
+                                                        <td>16</td>
+                                                        <td>8080</td>
+                                                        <td>
+                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><i class="fa fa-gear"></i> Google Chrome</td>
+                                                        <td>59.8</td>
+                                                        <td>8080</td>
+                                                        <td>
+                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><i class="fa fa-gear"></i> Test Application</td>
+                                                        <td>4</td>
+                                                        <td>8080</td>
+                                                        <td>
+                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><i class="fa fa-wrench"></i> Artificial Intelligence</td>
+                                                        <td>1.0</td>
+                                                        <td>--</td>
+                                                        <td>
+                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><i class="fa fa-wrench"></i> Analytics</td>
+                                                        <td>2.0</td>
+                                                        <td>--</td>
+                                                        <td>
+                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><i class="fa fa-wrench"></i> Cloud Computing</td>
+                                                        <td>2.0</td>
+                                                        <td>--</td>
+                                                        <td>
+                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="topology" class="tab-pane">
+                                 <div class="tab-container tab-likelihood">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#device-relationship" data-toggle="tab">Device Relationship</a></li>
+                                        <li><a href="#dataflow" data-toggle="tab">Dataflow</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="device-relationship" class="tab-pane active cont fade in">
+                                            <div class="row">
+                                                <div class="col-md-8 col-md-offset-2">
+                                                    <img src="img/topology-placeholder.png" class="img-responsive" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="dataflow" class="tab-pane cont fade">
+                                            <div class="row">
+                                                <div class="col-md-7 col-md-offset-1">
+                                                    <img src="img/dataflow-topology-01.jpg" class="img-responsive" />
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div id="accordion3" class="panel-group accordion-topology accordion accordion-semi">
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion3" href="#ac3-1"><i class="icon s7-angle-down"></i> 10.217.84.118 <i class="fa fa-long-arrow-right"></i> Outbound</a></h4>
+                                                            </div>
+                                                            <div id="ac3-1" class="panel-collapse collapse in">
+                                                                <ul class="panel-list">
+                                                                    <li>Patient Information</li>
+                                                                    <li>Billing</li>
+                                                                    <li>X</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="accordion4" class="panel-group accordion-topology accordion accordion-semi">
+                                                        <div class="panel panel-default">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion4" href="#ac3-2"><i class="icon s7-angle-down"></i> 10.217.84.118 <i class="fa fa-long-arrow-left"></i> Inbound</a></h4>
+                                                            </div>
+                                                            <div id="ac3-2" class="panel-collapse collapse in">
+                                                                <ul class="panel-list">
+                                                                    <li>Query</li>
+                                                                    <li>Acknowledgement</li>
+                                                                    <li>Patient Administration</li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+                            <div id="likelihood" class="tab-pane cont">
+                                <div class="tab-container tab-likelihood">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a href="#vulnerabilities" data-toggle="tab">Application/Device</a></li>
+                                        <li><a href="#security-posture" data-toggle="tab">Security Posture</a></li>
+                                        <a href="#" class="recommendation-circle" title="Recommendation" data-container="body" data-toggle="popover" data-placement="left" data-content="How do I reduce the device exposure? Click Here to view recommendations."><i class="fa fa-question-circle"></i></a>
+                                        <span class="device-exposure">DEVICE EXPOSURE: <strong>9</strong></span>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="vulnerabilities" class="tab-pane active cont fade in">
+                                            <div class="clearfix">
+                                                <div class="input-group pull-left col-md-4">
+                                                    <input type="text" class="form-control" />
+                                                    <span class="input-group-btn">
+                                                        <button class="btn btn-default" type="button">Search</button>
+                                                    </span>
+                                                </div>
+                                                <a href="javascript:void(0);" data-toggle="modal" data-target="#add-vulnerability" class="btn btn-alt1 pull-right"><i class="fa fa-plus"></i> Add Application/Device</a>
+                                            </div>
+                                            <hr/>
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Application/Device</th>
+                                                        <th>CVE ID</th>
+                                                        <th>Title</th>
+                                                        <th width="10%">Score</th>
+                                                        <th>Action</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Java Application</td>
+                                                        <td><a href="javascript:void(0);" data-toggle="modal" data-target="#cve-parameter">CVE-2013-56</a></td>
+                                                        <td>Improper Restriction of Operations within the Bounds of a Memory Buffer (2.11)</td>
+                                                        <td>1.5</td>
+                                                        <td><button class="btn btn-success btn-sm" data-toggle="modal" data-target="#fixRecall"><i class="fa fa-wrench"></i> Fix</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Adobe Flash</td>
+                                                        <td><a href="javascript:void(0);" data-toggle="modal" data-target="#cve-parameter">CVE-2014-965</a></td>
+                                                        <td></td>
+                                                        <td>7.5</td>
+                                                        <td><button class="btn btn-success btn-sm" data-toggle="modal" data-target="#fixRecall"><i class="fa fa-wrench"></i> Fix</button></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>OS</td>
+                                                        <td><a href="javascript:void(0);" data-toggle="modal" data-target="#cve-parameter">CVE-2014-67</a></td>
+                                                        <td></td>
+                                                        <td>9</td>
+                                                        <td><button class="btn btn-success btn-sm" data-toggle="modal" data-target="#fixRecall"><i class="fa fa-wrench"></i> Fix</button></td>
+                                                    </tr>
+                                                    <tr class="tr-fixed">
+                                                        <td>Keys stored in plaintext</td>
+                                                        <td>CVE-2016-543</td>
+                                                        <td></td>
+                                                        <td>3</td>
+                                                        <td><strong class="text-success">Fixed</strong></td>
+                                                    </tr>
+                                                    <tr class="tr-fixed">
+                                                        <td>Is the device publicly availabe for purchase</td>
+                                                        <td>CVE-2017-123</td>
+                                                        <td></td>
+                                                        <td>4</td>
+                                                        <td><strong class="text-success">Fixed</strong></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div id="security-posture" class="tab-pane cont fade">
+                                            <div class="clearfix">
+                                                <div class="input-group pull-left col-md-4">
+                                                    <input type="text" class="form-control" />
+                                                    <span class="input-group-btn">
+                                                        <button class="btn btn-default" type="button">Search</button>
+                                                    </span>
+                                                </div>
+                                                <a href="javascript:void(0);" data-toggle="modal" data-target="#add-security-posture" class="btn btn-alt1 pull-right"><i class="fa fa-plus"></i> Add Category</a>
+                                            </div>
+                                            <hr/>
+                                            <div class="panel-group panel-security" id="security-accordion" role="tablist" aria-multiselectable="true">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading clearfix" role="tab" id="headingIngegrity">
+                                                        <h4 class="panel-title">
+                                                            <a role="button" data-toggle="collapse" data-parent="#security-accordion" href="#collapseIntegrity" aria-expanded="true" aria-controls="collapseIntegrity">Automatic Logoff (ALOF)</a> 
+                                                            <i class="fa fa-info-circle" data-toggle="tooltip" title="The device's ability to prevent access and misuse by unauthorized users if device is left idle for a period of time."></i>
+                                                        </h4>
+                                                        <div class="panel-actions">
+                                                            <!-- <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a> -->
+                                                            <a href="javascript:void(0);" data-toggle="modal" data-target="#add-security-question"><i class="fa fa-plus"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseIntegrity" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingIngegrity">
+                                                        <div class="panel-body">
+                                                            <table class="table table-striped table-security-posture">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th width="70%">Question</th>
+                                                                        <th>Response</th>
+                                                                        <th>Score</th>
+                                                                        <th>Notes#</th>
+                                                                        <th>Actions</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr class="parent collapsed">
+                                                                        <td><strong>1.</strong> Can the device be configured to force reauthorization of logged-in user(s) after a predetermined length of inactivity (e.g., auto-logoff, session lock, password protected screen saver)?</td>
+                                                                        <td>N</td>
+                                                                        <td>3</td>
+                                                                        <td><span data-toggle="popover" data-content="Acquisition and INW Server - No, by design due to clinical workflow. Review has customer configurable auto-logoff functionality." data-placement="top">#3</span></td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                                            <a href="javascript:void(0)" class="btn-action" data-toggle="modal" data-target="#deleteParentQuestion"><i class="fa fa-trash"></i></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="child">
+                                                                        <td><strong>1.1</strong> Is the length of inactivity time before auto-logoff/screen lock user or administrator configurable? (Indicate time [fixed or configurable range] in notes.)</td>
+                                                                        <td>Y</td>
+                                                                        <td>5</td>
+                                                                        <td>#4</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="child">
+                                                                        <td><strong>1.2</strong> Can auto-logoff/screen lock be manually invoked (e.g., via a shortcut key or proximity sensor, etc.) by the user?</td>
+                                                                        <td>Y</td>
+                                                                        <td>4</td>
+                                                                        <td>-</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colspan="5" class="text-success" style="font-weight: 400">
+                                                                        #3 - Acquisition and INW Server - No, by design due to clinical workflow. Review has customer configurable auto-logoff functionality. <br/>
+                                                                        #4 - Review only.
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading clearfix" role="tab" id="headingAccess">
+                                                        <h4 class="panel-title">
+                                                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#security-accordion" href="#collapseAccess" aria-expanded="false" aria-controls="collapseAccess">Audit Control (AUDT)</a>
+                                                            <i class="fa fa-info-circle" data-toggle="tooltip" title="The ability to reliably audit activity on the device."></i>
+                                                        </h4>
+                                                        <div class="panel-actions">
+                                                            <!-- <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a> -->
+                                                            <a href="javascript:void(0);" class="addQuestion"><i class="fa fa-plus"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseAccess" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAccess">
+                                                        <div class="panel-body">
+                                                            <table class="table table-striped table-security-posture">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th width="70%">Question</th>
+                                                                        <th>Response</th>
+                                                                        <th>Score</th>
+                                                                        <th>Notes#</th>
+                                                                        <th>Actions</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td><strong>1.</strong> Can the medical device create an audit trail?</td>
+                                                                        <td>Y</td>
+                                                                        <td>-</td>
+                                                                        <td>-</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="parent">
+                                                                        <td colspan="5"><strong>2.</strong> Indicate which of the following events are recorded in the audit log:</td>
+                                                                    </tr>
+                                                                    <tr class="child">
+                                                                        <td><strong>2.1</strong> Login/logout?</td>
+                                                                        <td>Y</td>
+                                                                        <td>-</td>
+                                                                        <td>-</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="child">
+                                                                        <td><strong>2.2</strong> Display/presentation of data?</td>
+                                                                        <td>Y</td>
+                                                                        <td>-</td>
+                                                                        <td>-</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="child">
+                                                                        <td><strong>2.3</strong> Creation/modification/deletion of data?</td>
+                                                                        <td>N</td>
+                                                                        <td>-</td>
+                                                                        <td>-</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="child">
+                                                                        <td><strong>2.4</strong> Import/export of data from removable media?</td>
+                                                                        <td>Y</td>
+                                                                        <td>-</td>
+                                                                        <td>-</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="parent child">
+                                                                        <td><strong>2.5</strong> Receipt/transmission of data from/to external (e.g., network) connection?</td>
+                                                                        <td>Y</td>
+                                                                        <td>-</td>
+                                                                        <td>-</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="grand child">
+                                                                        <td><strong>2.5.1</strong> Remote service activity?</td>
+                                                                        <td>Y</td>
+                                                                        <td>-</td>
+                                                                        <td>-</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="child">
+                                                                        <td><strong>2.6</strong> Other events? (describe in the notes section)</td>
+                                                                        <td>Y</td>
+                                                                        <td>-</td>
+                                                                        <td>-</td>
+                                                                        <td>
+                                                                            <a href="javascript:void(0)" class="btn-action text-info"><i class="fa fa-plus"></i></a>
+                                                                            <a href="javascript:void(0)" class="btn-action"><i class="fa fa-trash"></i></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading clearfix" role="tab" id="headingDevice">
+                                                        <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#security-accordion" href="#collapseDevice" aria-expanded="false" aria-controls="collapseDevice">Device Security</a></h4>
+                                                        <div class="panel-actions">
+                                                            <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0);" class="addQuestion"><i class="fa fa-plus"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseDevice" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingDevice">
+                                                        <div class="panel-body">
+                                                            <table class="table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th width="85%">Question</th>
+                                                                        <th>Response</th>
+                                                                        <th>Score</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Are you using AV or other hardening software?</td>
+                                                                        <td>Y</td>
+                                                                        <td>3</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><a href="javascript:void(0);" class="editable">Morbi elementum tortor nibh, sed lobortis risus accumsan id?</a></td>
+                                                                        <td>Y</td>
+                                                                        <td>5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><a href="javascript:void(0);" class="editable">Aenean non ligula sed ligula finibus ultrices eu in metus?</a></td>
+                                                                        <td>N</td>
+                                                                        <td>5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><a href="javascript:void(0);" class="editable">Pellentesque porttitor sem fermentum auctor tempus?</a></td>
+                                                                        <td>N/A</td>
+                                                                        <td>5</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td><a href="javascript:void(0);" class="editable">Nam sodales nunc sed commodo rutrum?</a></td>
+                                                                        <td>Y</td>
+                                                                        <td>5</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading clearfix" role="tab" id="headingNew">
+                                                        <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#security-accordion" href="#collapseNew" aria-expanded="false" aria-controls="collapseNew">New Category</a></h4>
+                                                        <div class="panel-actions">
+                                                            <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0);" class="addQuestion"><i class="fa fa-plus"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseNew" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNew">
+                                                        <div class="panel-body">
+                                                            <table class="table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th width="85%">Question</th>
+                                                                        <th>Response</th>
+                                                                        <th>Score</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td colspan="3" align="center">No Question Added. Click on <i class="fa fa-plus"></i> to add questions under this catagory.</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="impact" class="tab-pane">
+                                <div class="tab-container tab-impact">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a class="patient-imptact" href="#tab-patient" data-toggle="tab">Patient Impact <span class="badge">Medium</span></a></li>
+                                        <li><a class="data-imptact" href="#tab-data" data-toggle="tab">Data Impact <span class="badge">High</span></a></li>
+                                        <li><a class="business-imptact" href="#tab-business" data-toggle="tab">Business Impact <span class="badge">Low</span></a></li>
+                                        <span class="impact-count">IMPACT: <strong>8</strong></span>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="tab-patient" class="tab-pane active cont fade in">
+                                            <div class="panel-group panel-security" id="pi-accordion" role="tablist" aria-multiselectable="true">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading clearfix" role="tab" id="headingPT">
+                                                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#pi-accordion" href="#collapsePT" aria-expanded="true" aria-controls="collapsePT">Criticality to Patient</a></h4>
+                                                        <!-- <div class="panel-actions">
+                                                            <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0);" class="addQuestion"><i class="fa fa-plus"></i></a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div id="collapsePT" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingPT">
+                                                        <div class="panel-body">
+                                                            <table class="table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Question</th>
+                                                                        <th>Response</th>
+                                                                        <th>Score</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>What is criticality of the device?</td>
+                                                                        <td>Y</td>
+                                                                        <td>3</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tab-data" class="tab-pane cont fade">  
+                                            <div class="panel-group panel-security" id="di-accordion" role="tablist" aria-multiselectable="true">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading clearfix" role="tab" id="headingMD">
+                                                        <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#di-accordion" href="#collapseMD" aria-expanded="true" aria-controls="collapseMD">Master Data</a></h4>
+                                                        <!-- <div class="panel-actions">
+                                                            <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0);" class="addQuestion"><i class="fa fa-plus"></i></a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div id="collapseMD" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingMD">
+                                                        <div class="panel-body">
+                                                            <table class="table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Question</th>
+                                                                        <th>Response</th>
+                                                                        <th>Score</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Demographic (e.g., name, address, location, unique identification number)?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Medical record (e.g., medical record #, account #, test or treatment date, device identification number)?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Diagnostic/therapeutic (e.g., photo/radiograph, test results, or physiologic data with identifying characteristics)?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Open, unstructured text entered by device user/operator?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Biometric data?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">N</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Personal financial information?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">N</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading clearfix" role="tab" id="headingSD">
+                                                        <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#di-accordion" href="#collapseSD" aria-expanded="false" aria-controls="collapseSD">Store Data</a></h4>
+                                                        <!-- <div class="panel-actions">
+                                                            <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0);" class="addQuestion"><i class="fa fa-plus"></i></a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div id="collapseSD" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSD">
+                                                        <div class="panel-body">
+                                                            <table class="table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Question</th>
+                                                                        <th>Response</th>
+                                                                        <th>Score</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Maintain private data temporarily in volatile memory (i.e., until cleared by power-off or reset)?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Store private data persistently on local media?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td><a href="javascript:void(0);" class="editable">1</a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Import/export private data with other systems?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Maintain private data during power service interruptions?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td><a href="javascript:void(0);" class="editable">2</a></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading clearfix" role="tab" id="headingTD">
+                                                        <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#di-accordion" href="#collapseTD" aria-expanded="false" aria-controls="collapseTD">Transmit Data</a></h4>
+                                                        <!-- <div class="panel-actions">
+                                                            <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0);" class="addQuestion"><i class="fa fa-plus"></i></a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div id="collapseTD" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTD">
+                                                        <div class="panel-body">
+                                                            <table class="table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Question</th>
+                                                                        <th>Response</th>
+                                                                        <th>Score</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Display private data (e.g., video display, etc.)?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Generate hardcopy reports or images containing private data?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Retrieve private data from or record private data to removable media (e.g., disk, DVD, CD-ROM, tape,
+                CF/SD card, memory stick, etc.)?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Transmit/receive or import/export private data via dedicated cable connection (e.g., IEEE 1073, serial port,
+                USB, FireWire, etc.)?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Transmit/receive private data via a wired network connection (e.g., LAN, WAN, VPN, intranet, Internet,
+                etc.)?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Transmit/receive private data via an integrated wireless network connection (e.g., WiFi, Bluetooth, infrared,
+                etc.)?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">N</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Import private data via scanning?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">N</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Other?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">N</a></td>
+                                                                        <td></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading clearfix" role="tab" id="headingAO">
+                                                        <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#di-accordion" href="#collapseAO" aria-expanded="false" aria-controls="collapseAO">Access to other device</a></h4>
+                                                        <!-- <div class="panel-actions">
+                                                            <a href="javascript:void(0);" data-toggle="modal" data-target="#edit-security-posture"><i class="fa fa-pencil"></i></a>
+                                                            <a href="javascript:void(0);" class="addQuestion"><i class="fa fa-plus"></i></a>
+                                                        </div> -->
+                                                    </div>
+                                                    <div id="collapseAO" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAO">
+                                                        <div class="panel-body">
+                                                            <table class="table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>Question</th>
+                                                                        <th>Response</th>
+                                                                        <th>Score</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Does this device connect to other device which has data?</td>
+                                                                        <td><a href="javascript:void(0);" class="editable">Y</a></td>
+                                                                        <td><a href="javascript:void(0);" class="editable">4</a></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="tab-business" class="tab-pane cont fade">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Question</th>
+                                                        <th>Response</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>What are the number of assets of a given type?</td>
+                                                        <td>100</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>What is the asset utilization?</td>
+                                                        <td>40%</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="anomaly" class="tab-pane">
+                                <div class="row row-margin-bottom">
+                                    <div class="col-md-12">
+                                        <div class="input-group">
+                                            <span class="input-group-addon"><i class="s7-search"></i></span>
+                                            <input type="text" placeholder="Search..." class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <table class="table table-striped table-hover table-anomaly">
+                                    <thead>
+                                        <tr>
+                                            <th>Priority</th>
+                                            <th>Src IP</th>
+                                            <th>Dst IP</th>
+                                            <th>Alert</th>
+                                            <th>Time</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- <tr class="new-alert" data-toggle="modal" data-target="#master-list">
+                                            <td><i class="fa fa-exclamation-circle"></i> High</td>
+                                            <td>NA</td>
+                                            <td>192.168.5.1</td>
+                                            <td><span data-container="body" data-toggle="popover" data-placement="left" data-content="How do I reduce the device exposure? Click Here to view recommendations.">DOS Attack</span></td>
+                                            <td>11/02/2016, 12:47 PM <button class="btn btn-xs btn-danger pull-right">Clear Alert</button></td>
+                                        </tr> -->
+                                        <tr>
+                                            <td><span class="label label-warning">Medium</span></td>
+                                            <td>192.168.5.1</td>
+                                            <td>192.168.4.1</td>
+                                            <td>Botnet</td>
+                                            <td>11/21/2016, 11:50 am <button class="btn btn-xs btn-success pull-right" data-toggle="modal" data-target="#quarantine-dialog">Quarantine</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="label label-success">Low</span></td>
+                                            <td>192.168.5.1</td>
+                                            <td>122.34.11.8</td>
+                                            <td>Operational Warning</td>
+                                            <td>02/12/2017, 6:20 pm <button class="btn btn-xs btn-success pull-right" data-toggle="modal" data-target="#quarantine-dialog">Quarantine</button></td>
+                                        </tr>
+                                        <!-- <tr class="new-alert">
+                                            <td><i class="fa fa-exclamation-circle"></i> High</td>
+                                            <td>NA</td>
+                                            <td>192.168.5.1</td>
+                                            <td><span data-container="body" data-toggle="popover" data-placement="left" data-content="How do I reduce the device exposure? Click Here to view recommendations.">DOS Attack</span></td>
+                                            <td>11/02/2016, 12:47 PM <button class="btn btn-xs btn-danger pull-right">Clear Alert</button></td>
+                                        </tr> -->
+                                        <tr>
+                                            <td><span class="text-warning">Medium</span></td>
+                                            <td>192.168.5.1</td>
+                                            <td>192.168.4.1</td>
+                                            <td>Botnet</td>
+                                            <td>11/21/2016, 11:50 am <button class="btn btn-xs btn-success pull-right" data-toggle="modal" data-target="#quarantine-dialog">Quarantine</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="text-success">Low</span></td>
+                                            <td>192.168.5.1</td>
+                                            <td>122.34.11.8</td>
+                                            <td>Operational Warning</td>
+                                            <td>02/12/2017, 6:20 pm <button class="btn btn-xs btn-success pull-right" data-toggle="modal" data-target="#quarantine-dialog">Quarantine</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><span class="text-danger">High</span></td>
+                                            <td>NA</td>
+                                            <td>192.168.5.1</td>
+                                            <td>DOS Attack</td>
+                                            <td>11/02/2016, 12:47 pm <button class="btn btn-xs btn-success pull-right" data-toggle="modal" data-target="#quarantine-dialog">Quarantine</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Medium</td>
+                                            <td>192.168.5.1</td>
+                                            <td>192.168.4.1</td>
+                                            <td>Botnet</td>
+                                            <td>11/21/2016, 11:50 am <button class="btn btn-xs btn-success pull-right" data-toggle="modal" data-target="#quarantine-dialog">Quarantine</button></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Low</td>
+                                            <td>192.168.5.1</td>
+                                            <td>122.34.11.8</td>
+                                            <td>Operational Warning</td>
+                                            <td>02/12/2017, 6:20 pm <button class="btn btn-xs btn-success pull-right" data-toggle="modal" data-target="#quarantine-dialog">Quarantine</button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div id="recall" class="tab-pane">
+                                <div class="clearfix">
+                                    <div class="am-checkbox pull-right">
+                                        <input id="recall-check" type="checkbox">
+                                        <label for="recall-check">View Fixed Recalls</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="recall-widget">
+                                            <button class="btn btn-success" data-toggle="modal" data-target="#fixRecall"><i class="fa fa-wrench"></i> Fix</button>
+                                            <div class="recall-number">
+                                                <span>Z-1019-2017</span>
+                                            </div>
+                                            <table class="table borderless">
+                                                <tr>
+                                                    <th>Creation Date:</th>
+                                                    <td>May 22, 2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Correction/Recall Status:</th>
+                                                    <td>Firm initiated action, Not yet classified</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Mfg:</th>
+                                                    <td>Biomerieux Inc</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Contact:</th>
+                                                    <td>Sales Representative 763-656-4300</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="recall-widget">
+                                            <button class="btn btn-success"><i class="fa fa-wrench"></i> Fix</button>
+                                            <div class="recall-number">
+                                                <span>Z-1019-2017</span>
+                                            </div>
+                                            <table class="table borderless">
+                                                <tr>
+                                                    <th>Creation Date:</th>
+                                                    <td>May 22, 2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Correction/Recall Status:</th>
+                                                    <td>Firm initiated action, Not yet classified</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Mfg:</th>
+                                                    <td>Biomerieux Inc</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Contact:</th>
+                                                    <td>Sales Representative 763-656-4300</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="recall-widget">
+                                            <button class="btn btn-success"><i class="fa fa-wrench"></i> Fix</button>
+                                            <div class="recall-number">
+                                                <span>Z-1019-2017</span>
+                                            </div>
+                                            <table class="table borderless">
+                                                <tr>
+                                                    <th>Creation Date:</th>
+                                                    <td>May 22, 2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Correction/Recall Status:</th>
+                                                    <td>Firm initiated action, Not yet classified</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Mfg:</th>
+                                                    <td>Biomerieux Inc</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Contact:</th>
+                                                    <td>Sales Representative 763-656-4300</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="recall-widget fixed-recall">
+                                            <button class="btn btn-success disabled"><i class="fa fa-check"></i> Fixed</button>
+                                            <div class="recall-number">
+                                                <span>Z-1019-2017</span>
+                                            </div>
+                                            <table class="table borderless">
+                                                <tr>
+                                                    <th>Creation Date:</th>
+                                                    <td>May 22, 2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Correction/Recall Status:</th>
+                                                    <td>Firm initiated action, Not yet classified</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Mfg:</th>
+                                                    <td>Biomerieux Inc</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Contact:</th>
+                                                    <td>Sales Representative 763-656-4300</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="recall-widget fixed-recall">
+                                            <button class="btn btn-success disabled"><i class="fa fa-check"></i> Fixed</button>
+                                            <div class="recall-number">
+                                                <span>Z-1019-2017</span>
+                                            </div>
+                                            <table class="table borderless">
+                                                <tr>
+                                                    <th>Creation Date:</th>
+                                                    <td>May 22, 2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Correction/Recall Status:</th>
+                                                    <td>Firm initiated action, Not yet classified</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Mfg:</th>
+                                                    <td>Biomerieux Inc</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Contact:</th>
+                                                    <td>Sales Representative 763-656-4300</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="recall-widget fixed-recall">
+                                            <button class="btn btn-success disabled"><i class="fa fa-check"></i> Fixed</button>
+                                            <div class="recall-number">
+                                                <span>Z-1019-2017</span>
+                                            </div>
+                                            <table class="table borderless">
+                                                <tr>
+                                                    <th>Creation Date:</th>
+                                                    <td>May 22, 2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Correction/Recall Status:</th>
+                                                    <td>Firm initiated action, Not yet classified</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Mfg:</th>
+                                                    <td>Biomerieux Inc</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Contact:</th>
+                                                    <td>Sales Representative 763-656-4300</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="form-horizontal no-padding">
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">Creation Date:</label>
+                                        <div class="col-sm-4">
+                                        <p class="form-control-static">May 22, 2017</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">Correction/Recall Status:</label>
+                                        <div class="col-sm-4">
+                                        <p class="form-control-static">Firm initiated action, Not yet classified</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">Recall Number:</label>
+                                        <div class="col-sm-4">
+                                        <p class="form-control-static">-</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">Mfg:</label>
+                                        <div class="col-sm-4">
+                                        <p class="form-control-static">Biomerieux Inc</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label">Contact:</label>
+                                        <div class="col-sm-4">
+                                        <p class="form-control-static">Sales Representative 763-656-4300</p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div id="recommendation" class="tab-pane">
+                                <div class="row">
+                                    <div class="col-md-10 col-md-offset-1 recommendation-container">
+                                        <div class="recommendation-tile active">
+                                            <div>
+                                                <h3 class="recommendation-category">Access Control</h3>
+                                                <p class="recommendation-desc">Change username/passwords to a more secure password?</p>
+                                            </div>
+                                            <div>
+                                                <p class="recommendation-label">Score</p>
+                                                <div class="recommendation-value"><h3 class="recommendation-score">2</h3></div>
+                                            </div>
+                                            <div>
+                                                <p class="recommendation-label">Current Status</p>
+                                                <div class="recommendation-value current-status">
+                                                    <h3 class="badge badge-success">Done</h3> 
+                                                    <a href="javascript:void(0);" class="btn btn-xs btn-info"><i class="fa fa-pencil"></i> Update Status</a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <a href="javascript:void(0);"><i class="s7-angle-right-circle fa-4x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="recommendation-tile">
+                                            <div>
+                                                <h3 class="recommendation-category">Integrity</h3>
+                                                <p class="recommendation-desc">Implement Code signing on the device</p>
+                                            </div>
+                                            <div>
+                                                <p class="recommendation-label">Score</p>
+                                                <div class="recommendation-value"><h3 class="recommendation-score">2</h3></div>
+                                            </div>
+                                            <div>
+                                                <p class="recommendation-label">Current Status</p>
+                                                <div class="recommendation-value current-status">
+                                                    <h3 class="badge badge-success">Done</h3> 
+                                                    <a href="javascript:void(0);" class="btn btn-xs btn-info"><i class="fa fa-pencil"></i> Update Status</a>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <a href="javascript:void(0);"><i class="s7-angle-right-circle fa-4x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="recommendation-tile">
+                                            <div>
+                                                <h3 class="recommendation-category">Device Security</h3>
+                                                <p class="recommendation-desc">Close all unused ports</p>
+                                            </div>
+                                            <div>
+                                                <p class="recommendation-label">Score</p>
+                                                <div class="recommendation-value"><h3 class="recommendation-score">2</h3></div>
+                                            </div>
+                                            <div>
+                                                <p class="recommendation-label">Current Status</p>
+                                                <div class="recommendation-value"><h3 class="badge badge-success">Done</h3></div>
+                                            </div>
+                                            <div>
+                                                <a href="javascript:void(0);"><i class="s7-angle-right-circle fa-4x"></i></a>
+                                            </div>
+                                        </div>
+                                        <div class="recommendation-tile">
+                                            <div>
+                                                <h3 class="recommendation-category">Network security</h3>
+                                                <p class="recommendation-desc">Implement a network firewall for the device</p>
+                                            </div>
+                                            <div>
+                                                <p class="recommendation-label">Score</p>
+                                                <div class="recommendation-value"><h3 class="recommendation-score">1.5</h3></div>
+                                            </div>
+                                            <div>
+                                                <p class="recommendation-label">Current Status</p>
+                                                <div class="recommendation-value"><h3 class="badge badge-success">Done</h3></div>
+                                            </div>
+                                            <div>
+                                                <a href="javascript:void(0);"><i class="s7-angle-right-circle fa-4x"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 widget-recommendation">
+                                        <div class="widget widget-fullwidth widget-small">
+                                            <div class="widget-head">
+                                                <div class="title">Access Control</div>
+                                            </div>
+                                            <table class="table table table-condensed table-recommendation-detail">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Status</th>
+                                                        <th>Comment</th>
+                                                        <th>Date</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><span class="badge badge-success">Done</span></td>
+                                                        <td>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</td>
+                                                        <td><span title="05/06/2017" data-toggle="tooltip">1 Month Ago</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="badge badge-warning">Ask Vendor</span></td>
+                                                        <td>Pellentesque felis ante, maximus ac suscipit at, pellentesque eu nisi.</td>
+                                                        <td><span title="13/05/2017" data-toggle="tooltip">2 Month Ago</span></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="badge badge-info">Open</span></td>
+                                                        <td>Nunc dictum, eros non pharetra sagittis, lacus arcu auctor dolor, quis sodales enim neque vulputate turpis.</td>
+                                                        <td><span title="24/04/2017" data-toggle="tooltip">3 Month Ago</span></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Category</th>
+                                            <th>Recommendation</th>
+                                            <th>Score</th>
+                                            <th>Status</th>
+                                            <th>Comments</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="alternate">
+                                            <td>Access Control</td>
+                                            <td>Change username/passwords to a more secure password?</td>
+                                            <td>2</td>
+                                            <td>
+                                                <span class="badge badge-success">Open</span> <i class="fa fa-arrow-right"></i> <span class="badge badge-info">Ask Vendor</span>
+                                            </td>
+                                            <td>
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3"></td>
+                                            <td>
+                                                <a href="javascript:void(0);" class="editable-select badge badge-info">Ask Vendor</a>
+                                            </td>
+                                            <td>
+                                                <a href="javascript:void(0);" class="editable-textarea">Enter Your Comments</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="alternate">
+                                            <td>Integrity</td>
+                                            <td>Implement Code signing on the device?</td>
+                                            <td>2</td>
+                                            <td>
+                                                <a href="javascript:void(0);" class="editable-select badge badge-success">Open</a>
+                                            </td>
+                                            <td>
+                                                <a href="javascript:void(0);" class="editable-textarea">Enter Your Comments</a>
+                                            </td>
+                                        </tr>
+                                        <tr class="alternate">
+                                            <td>Device Security</td>
+                                            <td>Close all unused ports?</td>
+                                            <td>2</td>
+                                            <td>
+                                                <span class="badge badge-success">Open</span> <i class="fa fa-arrow-right"></i> <span class="badge badge-info">Ask Vendor</span>
+                                            </td>
+                                            <td>
+                                                Duis tempus quam odio, ut scelerisque leo vestibulum id.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3"></td>
+                                            <td style="white-space: nowrap;">
+                                                <span class="badge badge-info">Ask Vendor</span> <i class="fa fa-arrow-right"></i> <span class="badge badge-success">Not Possible</span>
+                                            </td>
+                                            <td>
+                                                Pellentesque semper tincidunt turpis, et fermentum ante viverra sed.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3"></td>
+                                            <td>
+                                                <span class="editable-select badge badge-primary">Done</span>
+                                            </td>
+                                            <td>
+                                                Curabitur eget condimentum diam.
+                                            </td>
+                                        </tr>
+                                        <tr class="alternate">
+                                            <td>Network security</td>
+                                            <td>Implement a network firewall for the device?</td>
+                                            <td>1.5</td>
+                                            <td>
+                                                <a href="javascript:void(0);" class="editable-select badge badge-success">Open</a>
+                                            </td>
+                                            <td>
+                                                <a href="javascript:void(0);" class="editable-textarea">Enter Your Comments</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="am-right-sidebar">
+        <div class="sb-content">
+            <div class="user-info"><img src="img/avatar.png"><span class="name">Samantha Amaretti<span class="status"></span></span><span class="position">Art Director</span></div>
+            <p style="text-align: center; color: white;">Settings will appear here</p>
+        </div>
+    </nav>
+</div>
+
+<!-- Add Vulnerability -->
+<div id="add-vulnerability" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+        <h3 class="modal-title">Add New Application/Device</h3>
+      </div>
+      <div class="modal-body form-horizontal">
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Name:</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">CVE ID:</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Score:</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" />
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
+        <button type="button" data-dismiss="modal" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add Security Posture -->
+<div id="add-security-posture" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+        <h3 class="modal-title">Add Category</h3>
+      </div>
+      <div class="modal-body form-horizontal">
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Catagory Name:</label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" />
+            </div>
+        </div>
+        <!-- <hr/>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Response</th>
+                    <th>Score</th>
+                    <th><i class="fa fa-trash text-muted"></i></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="4" align="center"><button class="btn btn-alt3 btn-sm" id="addQuestionModal">Add questions to this category</button></td>
+                </tr>
+            </tbody>
+        </table> -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
+        <button type="button" data-dismiss="modal" class="btn btn-primary">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Edit Security Posture -->
+<div id="edit-security-posture" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+        <h3 class="modal-title">Edit Security Posture</h3>
+      </div>
+      <div class="modal-body form-horizontal">
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Catagory Name:</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" value="Integrity" />
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
+        <button type="button" data-dismiss="modal" class="btn btn-primary">Update</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Add Security Question -->
+<div id="add-security-question" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+                <h3 class="modal-title">Add Security Question</h3>
+            </div>
+            <div class="modal-body form-horizontal">
+                <div class="form-group"> 
+                    <label class="col-sm-3 control-label">Question</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-3 control-label">Have Response?</label>
+                    <div class="col-sm-2">
+                        <input type="checkbox" name="my-checkbox" data-size="small" data-on-text="Yes" data-off-text="No" />
+                    </div>
+                    <div class="col-sm-3">
+                        <i class="fa fa-info-circle response-info" data-toggle="popover" data-content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."></i>
+                    </div>
+                </div>
+                <div class="form-group"> 
+                    <label class="col-sm-3 control-label">Response</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group"> 
+                    <label class="col-sm-3 control-label">Score</label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
+                <button type="button" data-dismiss="modal" class="btn btn-primary">Add</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Delete Alert -->
+<div id="deleteParentQuestion" tabindex="-1" role="dialog" class="modal fade">
+    <div class="modal-dialog modal-full-color">
+        <div class="modal-content modal-sm">
+            <div class="modal-body">
+                <div class="text-center">
+                    <div class="i-circle primary"><i class="icon s7-trash"></i></div>
+                    <h4>Alert!</h4>
+                    <p>You are about to delete parent question. All the child questions under this sections will also be deleted permanently. Are you sure you want to proceeed?</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="btn btn-primary btn-shade1">Cancel</button>
+                <button type="button" data-dismiss="modal" class="btn btn-primary btn-shade1">Proceed</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Fix Alert -->
+<div id="fixRecall" tabindex="-1" role="dialog" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content modal-sm">
+            <div class="modal-body">
+                <div class="text-center">
+                    <div class="i-circle primary"><i class="icon s7-tools text-success"></i></div>
+                    <h4>Alert!</h4>
+                    <p>Are you sure you want to mark this recall as fixed?</p>
+                    <textarea class="form-control" placeholder="Action Taken..." rows="5"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="btn btn-success btn-shade1">Cancel</button>
+                <button type="button" data-dismiss="modal" class="btn btn-success btn-shade1">Proceed</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Service/Application -->
+<div id="add-service-application" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+        <h3 class="modal-title">Add Service / Application</h3>
+      </div>
+      <div class="modal-body form-horizontal">
+        <div class="form-group">
+            <div class="col-sm-9 col-sm-offset-3">
+                <div class="am-radio inline">
+                  <input type="radio" checked="" name="assetType" value="Apps" id="assetRad1">
+                  <label for="assetRad1">Application</label>
+                </div>
+                <div class="am-radio inline">
+                  <input type="radio" name="assetType" value="Ports" id="assetRad2">
+                  <label for="assetRad2">Ports</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group viewApp">
+            <label class="col-sm-3 control-label">Type:</label>
+            <div class="col-sm-9">
+                <select class="form-control" id="selectType">
+                    <option value="1">Java</option>
+                    <option value="2">Flash</option>
+                    <option value="3">Other</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group" id="otherApp">
+            <label class="col-sm-3 control-label">Name:</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group viewApp">
+            <label class="col-sm-3 control-label">Version:</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group viewPort">
+            <label class="col-sm-3 control-label">Port:</label>
+            <div class="col-sm-9">
+                <div class="input-group xs-mb-15">
+                    <input type="text" class="form-control"><span class="input-group-addon" data-toggle="tooltip" title="You can add multiple ports by pressing enter."><i class="fa fa-info-circle"></i></span>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
+        <button type="button" data-dismiss="modal" class="btn btn-primary">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CVE Parameter Count -->
+<div id="cve-parameter" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+        <h3 class="modal-title">CVE-2014-67</h3>
+      </div>
+      <div class="modal-body">
+        <div class="form-horizontal view-legend">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">CVE ID:</label>
+                <div class="col-sm-3">
+                    <p class="form-control-static">CVE-2014-67</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Title:</label>
+                <div class="col-sm-8">
+                    <p class="form-control-static">Some Random Title</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Description:</label>
+                <div class="col-sm-8">
+                    <p class="form-control-static">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+            </div>
+        </div>
+        <table class="table table-asimily">
+            <caption>CVE Parameters</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Value</th>
+                    <th>Name</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Confidentiality Impact</td>
+                    <td>Medium</td>
+                    <td>Confidentiality Multiplication Factor</td>
+                    <td>Low</td>
+                </tr>
+                <tr>
+                    <td>Integrity Impact</td>
+                    <td>Medium</td>
+                    <td>Integrity Multiplication Factor</td>
+                    <td>Low</td>
+                </tr>
+                <tr>
+                    <td>Availability Impact</td>
+                    <td>Medium</td>
+                    <td>Availability Multiplication Factor</td>
+                    <td>Low</td>
+                </tr>
+                <tr>
+                    <td>Attack Vector</td>
+                    <td>Medium</td>
+                    <td>Attack Complexity</td>
+                    <td>Low</td>
+                </tr>
+                <tr>
+                    <td>Previledge Required</td>
+                    <td>Medium</td>
+                    <td>User Interaction</td>
+                    <td>Low</td>
+                </tr>
+                <tr>
+                    <td>Remediation Level</td>
+                    <td>Medium</td>
+                    <td>Triggering Condition</td>
+                    <td>Low</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Domain List Modal -->
+<div id="master-list" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+                <h3 class="modal-title">Master List</h3>
+            </div>
+            <div class="modal-body">
+                <h3 class="master-list-title">Device Hostname</h3>
+                <ul class="domain-list blacklisted clearfix">
+                    <li>www.google.com</li>
+                    <li>www.onedrive.com</li>
+                    <li>www.outlook.com</li>
+                    <li>www.icloud.com</li>
+                    <li>www.dropbox.com</li>
+                    <li>www.microsoft.com</li>
+                    <li>www.apple.com</li>
+                    <li>www.twitter.com</li>
+                </ul>
+                <h3 class="master-list-title no-margin-top">White List</h3>
+                <ul class="domain-list whitelisted clearfix">
+                    <li>www.facebook.com</li>
+                    <li>www.pinterest.com</li>
+                    <li>www.trivago.com</li>
+                    <li>www.zomato.com</li>
+                    <li>www.burp.com</li>
+                    <li>www.makemytrip.com</li>
+                    <li>www.bookmyshow.com</li>
+                    <li>www.instagram.com</li>
+                    <li>www.daviantart.com</li>
+                    <li>www.zimmber.com</li>
+                    <li>www.myntra.com</li>
+                    <li>www.amazon.com</li>
+                    <li>www.jabong.com</li>
+                    <li>www.freestoneinfotech.com</li>
+                    <li>www.ajio.com</li>
+                    <li>www.yahoo.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Domain List Modal -->
+<div id="quarantine-dialog" tabindex="-1" role="dialog" class="modal fade modal-colored-header">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" data-dismiss="modal" aria-hidden="true" class="close"><i class="icon s7-close"></i></button>
+                <h3 class="modal-title">Change Quarantine Status</h3>
+            </div>
+            <div class="modal-body form-horizontal">
+                <div class="text-primary row-margin-bottom"><strong>Notice:</strong> Changine quarantine status is a feature of Cisco ISE, not Asimily. Please consult your Cisco ISE documentation for more information.</div>
+                <div class="am-checkbox">
+                    <input id="quarantine-check" type="checkbox">
+                    <label for="quarantine-check">Check this box to quarantine this device</label>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" data-dismiss="modal" class="btn btn-default">Cancel</button>
+                <button type="button" data-dismiss="modal" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nanoscroller.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/prettify.js" type="text/javascript"></script>
+    <script src="js/bootstrap-editable.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap-switch.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(".new-alert .btn").on("click", function() {
+            $(this).parents('tr').removeClass("new-alert");
+            $(this).parents('tr').find("i").remove("i");
+            $(this).remove();
+        });
+
+        $(".widget-recommendation").hide();
+        $(".s7-angle-right-circle").on("click", function() {
+            $(this).removeClass("s7-angle-right-circle").addClass("s7-angle-left-circle");
+            $(".recommendation-container").removeClass("col-md-10 col-md-offset-1").addClass("col-md-8");
+            $(".widget-recommendation").delay(500).fadeIn("slow");
+        });
+        $(".s7-angle-left-circle").on("click", function() {
+            $(this).removeClass("s7-angle-left-circle").addClass("s7-angle-right-circle");
+            $(".widget-recommendation").delay(500).fadeOut("slow");
+            $(".recommendation-container").removeClass("col-md-8").addClass("col-md-10 col-md-offset-1");
+        });
+
+        var addRow = "<tr>";
+        addRow += "<td><a href='javascript:void(0);' class='editable'>Enter Question</a></td>";
+        addRow += "<td><a href='javascript:void(0);' class='editable'>Y/N</a></td>";
+        addRow += "<td><a href='javascript:void(0);' class='editable'>Enter Score</a></td>";
+        addRow += "</tr>";
+        $(".addQuestion").on("click", function() {
+            $(this).parents(".panel").find(".panel-body table tbody").append(addRow);
+            $('.editable').editable({
+                placement: 'top'
+            });
+        });
+
+        var addRowModal = "<tr class='add-question-row'>";
+        addRowModal += "<td><a href='javascript:void(0);' class='editable'>Enter Question</a></td>";
+        addRowModal += "<td><a href='javascript:void(0);' class='editable'>Y/N</a></td>";
+        addRowModal += "<td><a href='javascript:void(0);' class='editable'>Enter Score</a></td>";
+        addRowModal += "<td><a href='javascript:void(0);'><i class='fa fa-trash'></i></a></td>";
+        addRowModal += "</tr>";
+        $("#addQuestionModal").on("click", function() {
+            $(this).parents("tbody").prepend(addRowModal);
+            $('.editable').editable({
+                placement: 'right'
+            });
+
+            $(".add-question-row i.fa-trash").on("click", function(){
+                $(this).parents("tr").remove();
+            });
+        });
+
+        $(".table-security-posture .child").hide();
+        $(".table-security-posture .parent").on("click", function() {
+            $(this).nextAll('.child').toggle();
+            //$(".table-security-posture .child")
+            $(this).toggleClass("collapsed");
+        });
+
+        $('.viewPort').hide();
+        $("#otherApp").hide();
+        $("input[name=assetType]").on("change", function() {
+            if($(this).val() == 'Apps'){
+                $('.viewApp').show();
+                $('.viewPort').hide();
+            }
+            else{
+                $('.viewApp').hide();
+                $('.viewPort').show();
+            }
+        });
+
+        $("#selectType").on("change", function() {
+            if($(this).val() == '3'){
+                $("#otherApp").show();
+            }
+            else {
+                $("#otherApp").hide();
+            }
+        });
+
+        $(".fixed-recall").hide();
+        $('#recall-check').change(function() {
+            if ($(this).is(':checked')) {
+                $(".fixed-recall").show();
+            }
+            else {
+                $(".fixed-recall").hide();
+            }
+        });
+
+        $('[data-toggle="tooltip"]').tooltip({
+            container: 'body'
+        });
+
+        $('[data-toggle="popover"]').popover({
+            trigger: 'hover'
+        });
+
+        $('.editable').editable({
+            container: 'body',
+            placement: 'top'
+        });
+
+        $('.editable-select').editable({
+            mode: 'inline',
+            pk: 1,
+            value: 0,
+            type: 'select',
+            showbuttons: false,
+            source: [
+                {value: 0, text: 'Open'},
+                {value: 1, text: 'Not possible'},
+                {value: 2, text: 'Ask Vendor'},
+                {value: 3, text: 'Done'}
+            ],
+        });
+
+        $('.editable-select-version').editable({
+            container: 'body',
+            pk: 1,
+            value: 0,
+            type: 'select',
+            showbuttons: false,
+            source: [
+                {value: 0, text: '1'},
+                {value: 1, text: '2'},
+                {value: 2, text: '3'},
+                {value: 3, text: '4'}
+            ],
+        });
+
+        $('.editable-textarea').editable({
+            type: 'textarea',
+            placeholder: 'Enter Your Comment',
+            placement: 'left'
+        });
+
+        $("[name='my-checkbox']").bootstrapSwitch();
+    });
+    </script>
+</body>
+</html>
